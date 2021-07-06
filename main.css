@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Indie+Flower&family=Qahiri&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Yellowtail&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Festive', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Qahiri', sans-serif;
+font-family: 'Shadows Into Light', cursive;
+  font-size: 15px;
+  line-height: 1.5;
+  cursor: pointer;
+  background-image: url('https://clipart-db.ru/file_content/rastr/background_062.jpg') ;
+}
+
+.page {
+  width: 800px;
+  margin: 20px auto;
+ 
+}
+  
+
+/* HEADER
+===========*/
+
+.header {
+padding: 15px;
+background-color: darkgrey;
+}
+
+.header_title {
+  margin:  0;
+  font-size: 24px;
+  text-align: center;
+  color: rgb(62, 75, 75);
+  font-family: 'Abril Fatface', cursive;
+}
+.header_subtitle{
+  margin: 0;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(51, 44, 44);
+  font-weight: 600;
+  font-family: 'Abril Fatface', cursive;
+font-family: 'Yellowtail', cursive;
+}
+
+
+
+/* nav
+=======*/
+
+.nav {
+  text-align: center;
+  color: aliceblue;
+
+}
+
+a {
+ color: rgb(255, 145, 0);
+}
+
+.nav-link {
+  padding: 8px 12px;
+background-color: aliceblue;
+
+color: rgb(155, 96, 96);
+text-decoration: none;
+}
+
+.nav-link:hover {
+background-color: rgb(255, 38, 0);
+}
+
+/*картинка
+===========*/
+img {
+  float: right; /* Обтекание картинки по левому краю */
+   
+   }
+
+p {
+  color: aliceblue;
+}
+
+/* content
+==========*/
+
+.content {
+  padding: 20px;
+  color: aliceblue;
+
+}
+
+.content-title {
+  margin: 0;
+  font-size: 24px;
+  color: rgb(255, 196, 0);
+  margin: 0 0 15px;
+}
+
+.content-link {
+  color: rgb(223, 153, 153);
+  text-decoration: none;
+
+}
+
+.content-link:hover {
+  text-decoration: underline;
+}
+
+.content-text {
+  margin-bottom: 20px;
+}
+
+/*artikle
+=========*/
+
+.article {
+ margin-bottom: 20px;
+ padding-bottom: 20px;
+}
+
+.artikle-title {
+  margin: 0 0 5px;
+
+  font-size: 13px;
+  color: rgb(159, 166, 233);
+  }
+
+  .artikle-title a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .artikle-title:hover {
+    text-decoration: underline;
+  
+  }
+
+.artikle-date {
+  color: rgb(255, 136, 0);
+  font-size: 12px;
+}
+
+
+/*footer
+=======*/
+
+.footer {
+  padding: 20px;
+  background-color: darkgrey;
+  color: black;
+  text-align: center;
+  font-size: 22px
+}
+
+
